@@ -8,7 +8,7 @@ namespace ShoppingService.Models
         public Product Product { get; set; }
         public int StockQuantity { get; set; }
 
-        public ProductWithStock(Product product, int stockQuantity)
+        public ProductWithStock(Product? product, int stockQuantity)
         {
             Product = product ?? throw new ArgumentNullException(nameof(product));
             StockQuantity = stockQuantity;

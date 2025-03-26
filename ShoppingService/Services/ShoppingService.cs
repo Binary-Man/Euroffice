@@ -55,7 +55,7 @@ namespace ShoppingService
             }
         }
 
-        public void PurchaseProduct(Product product, int qty)
+        public void PurchaseProduct(Product? product, int qty)
         {
             RemoveProductFromStock(product, qty);
         }

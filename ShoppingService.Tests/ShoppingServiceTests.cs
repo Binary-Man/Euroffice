@@ -1,9 +1,6 @@
 ﻿
 using ShoppingService.Exceptions;
 using ShoppingService.Models;
-using System;
-using System.Linq;
-using Xunit;
 
 namespace ShoppingService.Tests
 {
